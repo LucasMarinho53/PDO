@@ -103,33 +103,15 @@
         }
     }
 
-    ## Teste do create
-    // $cidade = new stdClass(); # cria uma classe genérica
-    // $cidade->nome = "Rio de Janeiro"; # definição do atributo nome no objeto
-    // $cidade->uf = "RJ"; # definição do atributo uf no objeto
-    // create($cidade);
     
-    // echo "<br><br>---<br><br>";
-    
-    ## Teste do get
     get();
 
     echo "<br><br>---<br><br>";
     
-    ## Teste do find
-    // find("Ca");
-
-    ## Teste do update
-    // $cidade = new stdClass();
-    // $cidade->nome = "Macaé";
-    // $cidade->uf = "RJ";
-    // $cidade->codigo = 2;
-    // update($cidade);
-
-    ## Teste do delete
+    
     delete(2);
 
     echo "<br><br>---<br><br>";
 
-    ## Teste do get
+    
     get();
